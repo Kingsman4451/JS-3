@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel</title>
+  <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="container">
+  <h1 class="heading text-center m-0 my-5 p-3 rounded-pill bg-primary text-white">Sayohatga boramizmi?</h1>
+    <form class="form" action="https://echo.htmlacademy.ru" method="post">
+      <div class="input-group mb-3">
+        <div class="input-group-text">
+          <input class="form__input form-check-input mt-0" type="checkbox" id="money">
+        </div>
+        <label class="form__label form-control fw-bold text-secondary fs-4" for="money">Sayohatga pul yo'q</label>
+      </div>
+
+      <div class="input-group mb-3">
+        <div class="input-group-text">
+          <input class="form__input form-check-input mt-0" type="checkbox" id="time">
+        </div>
+        <label class="form__label form-control fw-bold text-secondary fs-4" for="time">Sayohatga vaqt yo'q</label>
+      </div>
+
+      <div class="input-group mb-3">
+        <div class="input-group-text">
+          <input class="form__input form-check-input mt-0" type="checkbox" id="mood">
+        </div>
+        <label class="form__label form-control fw-bold text-secondary fs-4" for="mood">Sayohatga xoxish yo'q</label>
+      </div>
+
+      <div class="input-group mb-3">
+        <div class="input-group-text">
+          <input class="form__input form-check-input mt-0" type="checkbox" id="reys">
+        </div>
+        <label class="form__label form-control fw-bold text-secondary fs-4" for="reys">Reys qoldirilgan</label>
+      </div>
+
+      <div class="input-group mb-3">
+        <div class="input-group-text">
+          <input class="form__input form-check-input mt-0" type="checkbox" id="sick">
+        </div>
+        <label class="form__label form-control fw-bold text-secondary fs-4" for="sick">Kasal buldim</label>
+      </div>
+      <button class="form-btn btn btn-primary fs-4 fw-bold py-2 px-5" type="submit" id="submit">Tekshirish</button>
+    </form>
+
+    <output class="output w-100">
+      <p class="output-text text-white fs-4 py-2 my-4 fw-bold text-center bg-primary rounded-pill"></p>
+      <div class="img-div text-center mx-auto"></div>
+    </output>
+  </div>
+
+  <script src="./js/script.js"></script>
+  <script src="./bootstrap/js/bootstrap.bundle.js"></script>
+</body>
+</html>
